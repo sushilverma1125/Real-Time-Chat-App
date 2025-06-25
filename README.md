@@ -3,8 +3,10 @@
 A modern, real-time chat application built with React, Node.js, Express, and Socket.IO. Features a beautiful, responsive interface with real-time messaging, typing indicators, and user presence.
 
 ## Features
+<!--
 
-### Core Functionality
+### Core Functionality -->
+
 - **Real-time messaging** with Socket.IO
 - **User authentication** (username-based, no password required)
 - **Chat history** with message persistence
@@ -12,7 +14,7 @@ A modern, real-time chat application built with React, Node.js, Express, and Soc
 - **Typing indicators** to show when users are typing
 - **Message delivery status** with read receipts
 - **Sound notifications** for new messages
-
+<!--
 ### User Experience
 - **Responsive design** that works on desktop, tablet, and mobile
 - **Modern UI** with gradient backgrounds and glass-morphism effects
@@ -27,7 +29,7 @@ A modern, real-time chat application built with React, Node.js, Express, and Soc
 - **Concurrent development** with backend and frontend
 - **Cross-origin resource sharing** (CORS) enabled
 - **Error handling** and connection management
-
+-->
 ## Technology Stack
 
 ### Frontend
@@ -73,7 +75,7 @@ A modern, real-time chat application built with React, Node.js, Express, and Soc
    - Navigate to `http://localhost:5173`
    - Enter a username to join the chat
    - Open multiple browser tabs/windows to test real-time functionality
-
+<!--
 ### Alternative: Start servers separately
 
 If you prefer to run the servers separately:
@@ -85,6 +87,7 @@ npm run server
 # Terminal 2 - Frontend development server
 npm run client
 ```
+<!--
 
 ## Application Architecture
 
@@ -256,6 +259,6 @@ localStorage.debug = 'socket.io-client:socket';
 
 ## License
 This project is open source and available under the MIT License.
-
+-->
 ## Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
